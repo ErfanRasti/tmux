@@ -2,6 +2,11 @@
 
 Here I share my `tmux` configurations.
 
+
+This is the final look:
+
+<img width="1902" height="40" alt="image" src="https://github.com/user-attachments/assets/49739bb8-8376-43ad-ad52-fff6122d07f7" />
+
 ## Install pre-requirements
 
 ```bash
@@ -34,6 +39,10 @@ The default prefix is `CTRL+b`.
 
 ```sh
 sudo pacman -S python-tzlocal python-icalendar yz fzf
+```
+### Clone repo to your configuration folder
+```sh
+git clone https://github.com/ErfanRasti/tmux ~/.config/tmux/ 
 ```
 
 For more info about `tmux` check [this](https://github.com/ErfanRasti/arch-setup/blob/main/docs/09_Shell_and_Terminal/1_shell_and_terminal.md#tmux).
