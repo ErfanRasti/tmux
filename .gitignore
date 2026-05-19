@@ -1,2 +1,5 @@
 # Ignore plugins path
 plugins/
+
+# Ignore matugen theme
+matugen.conf
